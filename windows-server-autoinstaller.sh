@@ -69,13 +69,13 @@ case $choice in
     7)
         # Windows 10 Atom OS Lite
         img_file="windows10atomoslite.img"
-        iso_link="https://cloud.myzone.id/api/download?path=%2FISO%2FAtomOS10_22h2_Lite_003.iso"
+        iso_link="https://iso.vcbox.cloud/iso/AtomOS10_22h2_Lite_003.iso"
         iso_file="windows10atomoslite.iso"
         ;;
     8)
         # Windows 11 Atom OS Lite
         img_file="windows11atomoslite.img"
-        iso_link="https://cloud.myzone.id/api/download?path=%2FISO%2FAtomOS11_242_Ultimate_004.iso"
+        iso_link="https://iso.vcbox.cloud/iso/AtomOS11_242_Ultimate_004.iso"
         iso_file="windows11atomoslite.iso"
         ;;
     *)
