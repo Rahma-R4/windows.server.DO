@@ -9,6 +9,8 @@ display_menu() {
     echo "4. Windows 10"
     echo "5. Windows 11"
     echo "6. Windows 1021h2"
+    echo "7. Windows 10 Atom OS Lite"
+    echo "8. Windows 11 Atom OS Lite"
     read -p "Enter your choice: " choice
 }
 
@@ -63,6 +65,18 @@ case $choice in
         img_file="windows1021h2.img"
         iso_link="http://206.189.48.156/win1021H2.img"
         iso_file="windows1021h2.iso"
+        ;;
+    7)
+        # Windows 10 Atom OS Lite
+        img_file="windows10atomoslite.img"
+        iso_link="https://cloud.myzone.id/api/download?path=%2FISO%2FAtomOS10_22h2_Lite_003.iso"
+        iso_file="windows10atomoslite.iso"
+        ;;
+    8)
+        # Windows 11 Atom OS Lite
+        img_file="windows11atomoslite.img"
+        iso_link="https://cloud.myzone.id/api/download?path=%2FISO%2FAtomOS11_242_Ultimate_004.iso"
+        iso_file="windows11atomoslite.iso"
         ;;
     *)
         echo "Invalid choice. Exiting."
