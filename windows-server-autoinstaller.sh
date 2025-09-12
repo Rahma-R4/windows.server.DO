@@ -51,7 +51,7 @@ case $choice in
     4)
         # Windows 10
         img_file="windows10.img"
-        iso_link="https://iso.vcbox.cloud/iso/Win10_22H2_English_x64v1.iso"
+        iso_link="https://iso.vcbox.cloud/iso/tiny10_23h1_x64.iso"
         iso_file="windows10.iso"
         ;;
     5)
