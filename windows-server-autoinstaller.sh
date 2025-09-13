@@ -3,14 +3,14 @@
 # Function to display menu and get user choice
 display_menu() {
     echo "Please select the Windows Server or Windows version:"
-    echo "1. Windows Server 2016"
-    echo "2. Windows Server 2019"
-    echo "3. Windows Server 2022"
-    echo "4. Windows 10"
-    echo "5. Windows 11"
-    echo "6. Windows 1021h2"
+    echo "1. Windows Server 2016 Original"
+    echo "2. Windows Server 2019 Original"
+    echo "3. Windows Server 2022 Original"
+    echo "4. Windows 10 Original Original"
+    echo "5. Windows 11 Original Original"
+    echo "6. Windows 10 Tiny10"
     echo "7. Windows 10 Atom OS Lite"
-    echo "8. Windows 11 Atom OS Lite"
+    echo "8. Windows 11 Atom OS Ultimate Pro"
     read -p "Enter your choice: " choice
 }
 
@@ -31,51 +31,51 @@ display_menu
 
 case $choice in
     1)
-        # Windows Server 2016
+        # Windows Server 2016 Original
         img_file="windows2016.img"
         iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195174&clcid=0x409&culture=en-us&country=US"
         iso_file="windows2016.iso"
         ;;
     2)
-        # Windows Server 2019
+        # Windows Server 2019 Original
         img_file="windows2019.img"
         iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US"
         iso_file="windows2019.iso"
         ;;
     3)
-        # Windows Server 2022
+        # Windows Server 2022 Original
         img_file="windows2022.img"
         iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195280&clcid=0x409&culture=en-us&country=US"
         iso_file="windows2022.iso"
         ;;
     4)
-        # Windows 10
+        # Windows 10 Original
         img_file="windows10.img"
-        iso_link="https://iso.vcbox.cloud/iso/tiny10_23h1_x64.iso"
+        iso_link="http://download.apidot.site/iso/Win10_22H2_English_x64v1.iso"
         iso_file="windows10.iso"
         ;;
     5)
-        # Windows 11
+        # Windows 11 Original
         img_file="windows11.img"
-        iso_link="http://206.189.48.156/WIN11.ISO"
+        iso_link="http://download.apidot.site/iso/Win11_24H2_English_x64.iso"
         iso_file="windows11.iso"
         ;;
     6)
-        # Windows 1021h2
-        img_file="windows1021h2.img"
-        iso_link="http://206.189.48.156/win1021H2.img"
-        iso_file="windows1021h2.iso"
+        # Windows 10 Tiny10
+        img_file="windows10tiny10.img"
+        iso_link="http://download.apidot.site/iso/tiny10_23h1_x64.iso"
+        iso_file="windows10tiny10.iso"
         ;;
     7)
         # Windows 10 Atom OS Lite
         img_file="windows10atomoslite.img"
-        iso_link="https://iso.vcbox.cloud/iso/AtomOS10_22h2_Lite_003.iso"
+        iso_link="http://download.apidot.site/iso/AtomOS10_22h2_Lite_003.iso"
         iso_file="windows10atomoslite.iso"
         ;;
     8)
-        # Windows 11 Atom OS Lite
+        # Windows 11 Atom OS Ultimate Pro
         img_file="windows11atomoslite.img"
-        iso_link="https://iso.vcbox.cloud/iso/AtomOS11_242_Ultimate_004.iso"
+        iso_link="http://download.apidot.site/iso/AtomOS11_242_Ultimate_004.iso"
         iso_file="windows11atomoslite.iso"
         ;;
     *)
