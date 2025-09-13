@@ -11,7 +11,7 @@ display_menu() {
     echo "6. Windows 10 Tiny10"
     echo "7. Windows 10 Atom OS Lite"
     echo "8. Windows 11 Atom OS Ultimate Pro"
-    echo "8. Windows 11 Atom OS Lite"
+    echo "9. Windows 11 Atom OS Lite"
     read -p "Enter your choice: " choice
 }
 
