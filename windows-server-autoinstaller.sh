@@ -11,6 +11,7 @@ display_menu() {
     echo "6. Windows 10 Tiny10"
     echo "7. Windows 10 Atom OS Lite"
     echo "8. Windows 11 Atom OS Ultimate Pro"
+    echo "8. Windows 11 Atom OS Lite"
     read -p "Enter your choice: " choice
 }
 
@@ -74,8 +75,14 @@ case $choice in
         ;;
     8)
         # Windows 11 Atom OS Ultimate Pro
-        img_file="windows11atomoslite.img"
+        img_file="windows11atomosulti.img"
         iso_link="http://download.apidot.site/iso/AtomOS11_242_Ultimate_004.iso"
+        iso_file="windows11atomosulti.iso"
+        ;;
+    9)
+        # Windows 11 Atom OS Lite
+        img_file="windows11atomoslite.img"
+        iso_link="http://download.apidot.site/iso/AtomOS11_23h2_Lite_004.iso"
         iso_file="windows11atomoslite.iso"
         ;;
     *)
